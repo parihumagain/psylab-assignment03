@@ -2,12 +2,16 @@
 
 
 const trial_info = {
-    forced_choice: [
+    key_press: [
         {
-            question: "What's on the bread?",
+            question: "Same or different?",
             picture: "images/question_mark_02.png",
-            option1: 'jam',
-            option2: 'ham'
+            key1: 'f',
+            key2: 'j',
+            f: "same",
+            j: "different",
+            expected: "",
+            rotation: ,
         },
         {
             question: "What's the weather like?",
