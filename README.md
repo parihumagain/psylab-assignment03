@@ -1,4 +1,6 @@
 # Psylab Assignment 3
+[![Netlify Status](https://api.netlify.com/api/v1/badges/778c6a65-bec1-4a6f-a71a-e7023dcdeccd/deploy-status)](https://app.netlify.com/sites/psylab-mental-rotation/deploys)
+
 Key press:
 * f = same
 * j = different
