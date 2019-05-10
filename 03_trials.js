@@ -5,19 +5,14 @@ const trial_info = {
     key_press: [
         {
             question: "Same or different?",
-            picture: "images/question_mark_02.png",
+            picture: "images/7_150_different.jpg",
             key1: 'f',
             key2: 'j',
             f: "same",
             j: "different",
-            expected: "",
-            rotation: ,
+            expected: "different",
+            rotation: 150
         },
-        {
-            question: "What's the weather like?",
-            picture: "images/weather.jpg",
-            option1: "shiny",
-            option2: "rainbow"
-        }
+        
     ],
 };
