@@ -11,8 +11,10 @@ const trial_info = {
             f: "same",
             j: "different",
             expected: "different",
-            rotation: 150
+            rotation: 150,
+            number: 1,
+            congruency: "different"
         },
-        
+
     ],
 };
