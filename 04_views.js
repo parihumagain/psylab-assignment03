@@ -23,14 +23,14 @@ const intro = babeViews.intro({
     trials: 1,
     name: 'intro',
     // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
-    text:   
+    text:   `This is a sample introduction view.
             <br />
             <br />
-            Welcome to our experimet on mental rotaion. we would like to thank you for giving us your time and for your contribution to science.
-             You are in the <strong>${coin}</strong> group.
+            Welcome to our experimet on mental rotation. Thank you for participating.
+            You are in the <strong>${coin}</strong> group.
             <br />
             <br />
-            `,
+            This is a minimal experiment with one key press view.`,
    buttonText: 'Begin the experiment'
 });
 
@@ -39,15 +39,17 @@ const instructions = babeViews.instructions({
     trials: 1,
     name: 'instrucions',
     title: 'General Instructions',
-    text:  `This is a sample introduction view.
+    text:  `Instructions
             <br />
             <br />
-            You will be seeing two images and you have to tell if they are the same images and are just roated form of each other or they are totally different images 
-               press f  if they are same and press j if they are different. You are in the <strong>${coin}</strong> group.
+            You will be seeing two figures. The right figure should serve as a reference point.
+            The left figure is rotated at the x-axis.
+            Your task is to say whether the figures match or not by mentally rotating them.
+            Press f  if they are same and press j if they are different.
             <br />
             <br />
-            you will have five trails before begenning the experiment to get familier with the experiment `,
-               
+            This experiment is comprised of 5 trials`,
+
     buttonText: 'go to trials'
 });
 
