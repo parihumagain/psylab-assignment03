@@ -30,7 +30,7 @@ const intro = babeViews.intro({
              You are in the <strong>${coin}</strong> group.
             <br />
             <br />
-            This is a minimal experiment with one forced choice view. It can serve as a starting point for programming your own experiment.`,
+            `,
    buttonText: 'Begin the experiment'
 });
 
