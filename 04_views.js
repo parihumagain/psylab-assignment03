@@ -39,8 +39,15 @@ const instructions = babeViews.instructions({
     trials: 1,
     name: 'instrucions',
     title: 'General Instructions',
-    text:  'You will be seeing 2 images and you have to tell if they are the same images and are just roated form of each other or they are totally different images 
-               press f  if they are "same" and press j if they are "different",'
+    text:  `This is a sample introduction view.
+            <br />
+            <br />
+            You will be seeing two images and you have to tell if they are the same images and are just roated form of each other or they are totally different images 
+               press f  if they are same and press j if they are different. You are in the <strong>${coin}</strong> group.
+            <br />
+            <br />
+            you will have five trails before begenning the experiment to get familier with the experiment `,
+               
     buttonText: 'go to trials'
 });
 
