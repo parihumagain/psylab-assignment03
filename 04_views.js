@@ -23,7 +23,7 @@ const intro = babeViews.intro({
     trials: 1,
     name: 'intro',
     // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
-    text:   `This is a sample introduction view.
+    text:   
             <br />
             <br />
             Welcome to our experimet on mental rotaion. we would like to thank you for giving us your time and for your contribution to science.
