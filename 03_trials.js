@@ -5,7 +5,7 @@ const trial_info = {
     key_press: [
         {
             question: "Same or different?",
-            picture: "images/7_150_different.jpg",
+            picture: "images/1_50_same.jpg",
             key1: 'f',
             key2: 'j',
             f: "same",
@@ -17,7 +17,7 @@ const trial_info = {
         },
         {
             question: "Same or different?",
-            picture: "images/1_50_same.jpg",
+            picture: "images/2_150_different.jpg",
             key1: 'f',
             key2: 'j',
             f: "same",
@@ -30,6 +30,30 @@ const trial_info = {
         {
             question: "Same or different?",
             picture: "images/2_50_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: "same",
+            j: "different",
+            expected: "same",
+            rotation: 50,
+            number: 2,
+            congruency: "same"
+        },
+        {
+            question: "Same or different?",
+            picture: "images/3_50_different.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: "same",
+            j: "different",
+            expected: "same",
+            rotation: 50,
+            number: 2,
+            congruency: "same"
+        },
+        {
+            question: "Same or different?",
+            picture: "images/4_50_different.jpg",
             key1: 'f',
             key2: 'j',
             f: "same",
