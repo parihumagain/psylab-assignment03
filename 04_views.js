@@ -26,8 +26,8 @@ const intro = babeViews.intro({
     text:   `This is a sample introduction view.
             <br />
             <br />
-            The introduction view welcomes the participant and gives general information
-            about the experiment. You are in the <strong>${coin}</strong> group.
+            Welcome to our experimet on mental rotaion. we would like to thank you for giving us your time and for your contribution to science.
+             You are in the <strong>${coin}</strong> group.
             <br />
             <br />
             This is a minimal experiment with one forced choice view. It can serve as a starting point for programming your own experiment.`,
@@ -42,7 +42,7 @@ const instructions = babeViews.instructions({
     text:  `This is a sample instructions view.
             <br />
             <br />
-            Tell your participants what they are to do here.`,
+            You will be seeing 2 images and you have to tell if they are the same images and just are just roated form of each other or they are totally different images`,
     buttonText: 'go to trials'
 });
 
