@@ -42,8 +42,8 @@ const instructions = babeViews.instructions({
     text:  `This is a sample instructions view.
             <br />
             <br />
-            You will be seeing 2 images and you have to tell if they are the same images and just are just roated form of each other or they are totally different images f: "same",
-            j: "different",`,
+            You will be seeing 2 images and you have to tell if they are the same images and are just roated form of each other or they are totally different images 
+               press f  if they are "same" and press j if they are "different",`,
     buttonText: 'go to trials'
 });
 
