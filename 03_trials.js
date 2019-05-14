@@ -12,7 +12,7 @@ const trial_info = {
             j: "different",
             expected: "different",
             rotation: 150,
-            number: 1,
+            pic_nr: 1,
             congruency: "different"
         },
         {
@@ -24,7 +24,7 @@ const trial_info = {
             j: "different",
             expected: "same",
             rotation: 50,
-            number: 2,
+            pic_nr: 2,
             congruency: "same"
         },
         {
@@ -36,7 +36,7 @@ const trial_info = {
             j: "different",
             expected: "same",
             rotation: 150,
-            number: 3,
+            pic_nr: 3,
             congruency: "same"
         },
         {
@@ -48,7 +48,7 @@ const trial_info = {
             j: "different",
             expected: "different",
             rotation: 50,
-            number: 4,
+            pic_nr: 4,
             congruency: "different"
         },
         {
@@ -60,7 +60,7 @@ const trial_info = {
             j: "different",
             expected: "same",
             rotation: 150,
-            number: 5,
+            pic_nr: 5,
             congruency: "same"
         },
     ],
