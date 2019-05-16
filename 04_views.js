@@ -18,24 +18,27 @@
 
 */
 
+
+
 // Every experiment should start with an intro view. Here you can welcome your participants and tell them what the experiment is about
-const intro = babeViews.intro({
+const intro = babeViews.view_generator('intro',{
     trials: 1,
-    name: 'intro',
     // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
-    text:   `This is a sample introduction view.
+    text: 'Welcome to our experiment Press next to go to next page'
+
+    /*`This is a sample introduction view.
             <br />
             <br />
-            Welcome to our experimet on mental rotation. Thank you for participating.
+            /*Welcome to our experimet on mental rotation. Thank you for participating.
             You are in the <strong>${coin}</strong> group.
             <br />
             <br />
-            This is a minimal experiment with one key press view.`,
-   buttonText: 'Begin the experiment'
+            This is a minimal experiment with one key press view.`,*/
+   buttonText: 'Next'
 });
 
 // For most tasks, you need instructions views
-const instructions = babeViews.instructions({
+const instructions = babeViews.view_generator('instructions',{
     trials: 1,
     name: 'instrucions',
     title: 'General Instructions',
@@ -50,12 +53,25 @@ const instructions = babeViews.instructions({
             <br />
             This experiment is comprised of 5 trials`,
 
-    buttonText: 'go to trials'
+    buttonText: 'Next'
+});
+
+//beginn View
+const beginn = babeViews.view_generator('Beginn',{
+    trials: 1,
+    name: 'Begin',
+    text:  `Instructions
+            <br />
+            <br />
+            When ever you  are ready press next botton to begin he experiment`,
+
+    buttonText: 'Next'
 });
 
 
+
 // In the post test questionnaire you can ask your participants addtional questions
-const post_test = babeViews.postTest({
+const post_test = babeViews.view_generator('postTest',{
     trials: 1,
     name: 'post_test',
     title: 'Additional information',
@@ -78,7 +94,7 @@ const post_test = babeViews.postTest({
 });
 
 // The 'thanks' view is crucial; never delete it; it submits the results!
-const thanks = babeViews.thanks({
+const thanks = babeViews.view_generator('thanks',{
     trials: 1,
     name: 'thanks',
     title: 'Thank you for taking part in this experiment!',
@@ -109,7 +125,7 @@ const thanks = babeViews.thanks({
 
 
 // Here, we initialize a forcedChoice view
-const key_press_2A = babeViews.keyPress({
+const trails = babeViews.view_generator('trails',{
     // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
     trials: trial_info.key_press.length,
     // name and trial_type should be identical to the variable name
@@ -118,6 +134,17 @@ const key_press_2A = babeViews.keyPress({
     data: _.shuffle(trial_info.key_press)
 });
 
+// Forced choise tasks
+
+/*const forced_choice_trials = [
+    {
+        picture: "path/to/picture_of_questionmark.jpg",
+        question: "What's the weather like? like?",
+        option1: "shiny",
+        option2: "rainbow"
+    }
+];
+*/
 // There are many more templates available:
 // forcedChoice, sliderRating, dropdownChoice, testboxInput, ratingScale, imageSelection, sentenceChoice, keyPress, selfPacedReading and selfPacedReading_ratingScale
 
