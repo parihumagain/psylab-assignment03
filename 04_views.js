@@ -24,7 +24,7 @@
 const intro = babeViews.view_generator('intro',{
     trials: 1,
     // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
-    text: 'Welcome to our experiment Press next to go to next page'
+   text: `Welcome to our experiment Press next to go to next page`,
 
     /*`This is a sample introduction view.
             <br />
